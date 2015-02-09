@@ -1,2 +1,4 @@
 <?php
+
+
     $path = "/leslie-blog/";
