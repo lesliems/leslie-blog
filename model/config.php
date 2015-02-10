@@ -1,4 +1,7 @@
 <?php
+     $path = "/leslie-blog/";
 
-
-    $path = "/leslie-blog/";
+    $host = "localhost";
+    $username = "root";
+    $password = "root";
+    $database = "blog_db";
