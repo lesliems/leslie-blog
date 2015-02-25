@@ -1,0 +1,91 @@
+div{
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    color: white;
+}
+#alert{
+    border-style: solid;
+    border-width: 1px;
+    color:black;
+    padding-top: 10px;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+}  
+body{
+    /*     background-image: url(http://newscoma.com/wp-content/uploads/2010/11/walking-dead-s1e1-Days-Gone-By-01.jpg);
+            background: url(../images/twd5.png);*/
+    border-color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 36px;
+    color: white;
+    padding: 10px;
+    font-size: 36px;
+    	cursor: url('some-cursor.ico'), default;
+
+}
+
+a{
+    font-size: 30px;
+    padding: 10px;
+
+}
+/*for all paragraphs */
+p {
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, sans-serif;
+}
+/*For the background*/
+#index{
+    font-size: 30px;
+    background-color: black;
+}
+/* for paragraph images*/
+p img {
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+
+}
+/*for the videos*/
+object{
+    padding-left: 40px;
+    padding-top: 60px;
+}
+/*For all the jumbotrons*/
+.jumbotron {
+    background-image: url(../images/twd6.png);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    margin-bottom: 30px;
+}
+img{
+    padding-left: 120px;
+}
+label{
+    font-size: 20px;
+}
+#tags{
+    font-size: 10px;
+}
+.navbar {
+position: relative;
+margin-bottom: 5px;
+border: 1px solid transparent;
+}
+#accordion{
+    background-color: black;
+    color:whitesmoke;
+    padding: 10px;
+    overflow: hidden;
+    
+}

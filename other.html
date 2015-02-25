@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Other</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <link type ="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body id="title">
+
+        <script src="js/bootstrap.min.js"></script>
+        <header>
+            <div class="jumbotron">
+                <h1>Characters</h1>
+            </div>
+            <nav class="navbar-inverse" role="navigation">
+                <a href='index.html'>Home</a>
+                <a href='projects.html'>Projects</a>
+                <a href='technology.html'>Technology</a>
+                <a href='more.html'>More</a>
+                <a href='other.html'>Other</a>
+                <a href="tumblr.com"><i class="fa fa-tumblr"></i></a>
+                <a href="twitter.com"><i class="fa fa-twitter fa-1x"></i></a>
+                <a href="plus.google.com"><i class="fa fa-google-plus fa-1x"></i></a>
+                <a href="instagram.com"><i class="fa fa-instagram"></i></a>
+                <!--attempt at the seach bar -->
+                <label for="tags">Search</label>
+                <input id="tags">
+            </nav>
+            <div class="col-xs-3">
+                <p>
+                    <img class="img-responsive" src="http://www.hollywoodreporter.com/sites/default/files/imagecache/node-gallery-display/2014/10/Norman_Reedus_Andrew_Lincoln_a_p.jpg">
+                    <img class="img-responsive" src="http://images.latinpost.com/data/images/full/17742/norman-reedus-lauren-cohan.jpg?w=600">
+                    <img class="img-responsive" src="https://usathss.files.wordpress.com/2014/11/456563672.jpg?w=263&h=387">
+                </p>
+            </div>
+        </header>
+        <div class="col-xs-6">
+            <h4>Characters From The Show</h4>
+            <h1>(Seasons 1-5)</h1>
+            <form action="">
+                <!--the button that will perform the action of the image appearing and disappearing-->
+                <button type="button" id="hidePic">Hide the Pic</button>
+                
+                <button type="button" id="showPic">Show the Pic</button> 
+            </form>
+            <!--the divs for the names to be in and and for it to change -->
+            <div class="alive" id="rickg">
+                <h6>Rick Grimes</h6>
+            </div>
+         <img id="rick" class="img-responsive" src="http://popcultureplayground.com/wp-content/uploads/2014/09/clue.jpg">
+         <div class="alive" id="carlg">
+                <h6>Carl Grimes</h6>
+            </div>
+            <img id="carl" class="img-responsive" src="http://www.vixenvarsity.com/wp-content/uploads/2014/09/carl-grimes-walking-dead-season-5-episode-1.jpg">
+           
+            <div class="dead" id="lorig">
+                <h6>Lori Grimes</h6>
+            </div>
+               <img id="lori" class="img-responsive" src="http://4.bp.blogspot.com/-nopaPHGVKrI/VEFA5a468jI/AAAAAAAAWVA/sNQkInBJ7l8/s1600/02-Lori-Grimes-Roy-Pyper-nerdboy69-The-Walking-Dead-Series-05-Photographs-www-designstack-co.jpeg">
+            
+            <!--the accordion that has the survivors and the dead for each season -->
+            <div id="accordion">
+                <h5>Season 1</h5>
+                <div>
+                    <p>
+                        Survivors:Rick Grimes, Shane Walsh, Lori Grimes,Dale Horvath, Glenn Rhee, Carl Grimes, Dr.Edwin Jenner, T-Dog, Sophia Peletier, Carol Peletier, Andrea
+                        Dead: Amy, Ed Peletier,Jim
+                    </p>
+                </div>
+                <h5>Season 2</h5>
+                <div>
+                    <p>
+                        Survivors:Rick Grimes, Shane Walsh, Lori Grimes,Andrea,Dale Horvarth,Glenn Rhee,Carl Grimes,Daryl Dixon, Carol Peletier,T-Dog, Maggie Greene, Beth Greene, Hershel Greene, Patricia, Jimmy
+                        Dead: Sophia Peletier
+                    </p>
+                </div>
+                <h5>Season 3</h5>
+                <div>
+                    <p>
+                        Survivors: Rick Grimes, Lori Grimes, Andrea, Daryl Dixon,Glenn Rhee,Maggie Greene,Carl Grimes,Michonne, Merle Dixon,The Governer,Carol Peletier,Beth Greene,Martinez, Tyreese Williams, Sasha Williams, Hershel Greene, Milton Mamet
+                        
+                    </p>
+                </div>
+                <h5>Season 4</h5>
+                <div>
+                    <p>
+                        sdv
+                    </p>
+                </div>
+               <h5>Season 5</h5>
+               <div>
+                    <p>
+                        sdv
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-3">
+            <p>
+                <img class="img-responsive" src="http://www.hollywoodreporter.com/sites/default/files/imagecache/node-gallery-display/2014/10/Norman_Reedus_Andrew_Lincoln_a_p.jpg">
+                <img class="img-responsive" src="http://images.latinpost.com/data/images/full/17742/norman-reedus-lauren-cohan.jpg?w=600">
+                <img class="img-responsive" src="https://usathss.files.wordpress.com/2014/11/456563672.jpg?w=263&h=387">
+            </p>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
