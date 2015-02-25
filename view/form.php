@@ -1,5 +1,10 @@
 <?php
     require_once (__DIR__ . "/../model/config.php");
+    require_once (__DIR__ . "/../controller/login-verify.php");
+    //if not logged in , it must kill the program
+    if(!authenticateUser()){
+        die();
+    }
 ?>
 
 <h1>Create Blog Post</h1>
