@@ -89,4 +89,24 @@ border: 1px solid transparent;
     overflow: hidden;
     
 }
+.bgvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
+.loginb{
+    background-image: url('../video/happy.mp4');
+}
+#navb{
+background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+
+}
+a{
+    color: gray;
+}
 
