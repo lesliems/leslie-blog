@@ -31,7 +31,12 @@ body{
 a{
     font-size: 30px;
     padding: 10px;
-
+ 
+    text-decoration: none;
+}
+a:hover {
+    background-color: #2aabd2;
+    
 }
 /*for all paragraphs */
 p {
@@ -104,9 +109,44 @@ border: 1px solid transparent;
 }
 #navb{
 background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+padding-top: 5px;
+padding-bottom: 15px;
+padding-left: 100px;
+
 
 }
 a{
-    color: gray;
+    color: black;
 }
+.user{
+    padding-left: 450px;
+    color: black;
+   
+}
+.pass{
+    padding-left: 457px;
+    color: black;
+}
+#lbutton{
+    margin-left:450px;
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+}
+#un{
+    background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
 
+}
+#or{
+    color: black;
+}
+#sbutton{
+    margin-left: 40px;
+    height: 40px;
+    width: 50px;
+    font-size: 20px;
+    
+}
+#logo{
+    
+}

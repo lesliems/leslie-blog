@@ -14,25 +14,28 @@ require_once(__DIR__ . "/../model/config.php");
                 <a href='more.html'>More</a>
                 <a href='other.html'>Other</a>
                 <a href='login.php'>Login</a>
-                <a href='login.php'>Logout</a>            
+                <a href='login.php'>Logout</a> 
+                <a href='login.php'>Sign up</a> 
         </nav>
 <h1 class="login">Login</h1>
 
-<form method="post"action="<?php echo $path . "controller/login-user.php"; ?>">  
- <div>
+<form method="post"action="<?php echo $path . "/controller/login-user.php"; ?>">  
+    <div id="un">
      <label for="username" class="user">Username: </label>
         <input type="text" name="username"/>
     </div>
     
-    <div>
+    <div id="un">
         <label for="password" class="pass">Password: </label>
         <input type="password" name="password"/>
     </div>
         
-        <div>
-            <button type="submit">Login</button>
+    <div id="un">
+            <button type="submit" id="lbutton">Login</button>
+            <button> <a href="register.php" id="sbutton" >Signup</a></button>
         </div>
 
+   
     
 </form>
     </header>
