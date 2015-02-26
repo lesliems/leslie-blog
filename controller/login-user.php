@@ -14,6 +14,7 @@ if ($query->num_rows == 1) {
     if ($row["password"] === crypt($password, $row["salt"])) {
         $_SESSION["authenticated"] = true;
         echo "<p>Login successful:</p>";
+        echo "<body><button type='button'>afebt</button></body>";
     }
     else{
         echo "<p>Invalid username and password</p>";
