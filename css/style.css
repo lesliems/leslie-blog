@@ -147,6 +147,21 @@ a{
     font-size: 20px;
     
 }
-#logo{
-    
+#email{
+       padding-left: 495px;
+    color: black;
+}
+#u{
+      padding-left: 450px;
+    color: black;
+}
+#psw{
+      padding-left: 458px;
+    color: black;
+}
+#sumbutton{
+    margin-left: 500px;
+    height:40px;
+    width: 80px;
+    font-size: 20px;
 }

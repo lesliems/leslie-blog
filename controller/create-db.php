@@ -1,5 +1,5 @@
 <?php
-
+//.. means step out 
 require_once(__DIR__ . "/../model/config.php");
  require_once (__DIR__ . "/../controller/login-verify.php");
 
@@ -8,7 +8,7 @@ require_once(__DIR__ . "/../model/config.php");
         header("Location: " . $path . "index.php");
         die();
     }
-
+//creates a table
 $query = $_SESSION["connection"]->query("CREATE TABLE posts ("
         . "id int(11) NOT NULL AUTO_INCREMENT,"
         . "title varchar(255) NOT NULL,"
@@ -32,6 +32,7 @@ $query = $_SESSION["connection"]->query("CREATE TABLE users ("
         . "PRIMARY KEY (id))");
 
 if ($query) {
+    //makes a table for users
     echo "<p>Successfully created table: users </p>";
  } 
  else {
